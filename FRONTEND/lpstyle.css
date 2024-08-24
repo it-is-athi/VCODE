@@ -1,0 +1,70 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Arial', sans-serif;
+}
+
+.form-container {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.form-container:hover {
+    transform: scale(1.05);
+}
+
+.form-header {
+    margin-bottom: 30px;
+    color: #343a40;
+    font-weight: bold;
+}
+
+.form-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+.toggle-link {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.toggle-link:hover {
+    color: #0056b3;
+}
+
+/* Button Styling */
+.custom-button {
+    background-color: #6f42c1; /* Purple background */
+    border: none; /* Remove default border */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Set the font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover Effect */
+.btn-primary:hover {
+    background-color: #5a32a3; /* Darker purple on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Active (Click) Effect */
+.btnS:active {
+    background-color: #4b2787; /* Even darker purple when clicked */
+    transform: scale(0.98); /* Slightly shrink when clicked */
+}
+
+ 
+.text-center p {
+    color: #6c757d;
+}
